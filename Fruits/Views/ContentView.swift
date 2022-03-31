@@ -54,6 +54,7 @@ struct ContentView: View {
 				}
 				.navigationBarTitle("Fruits")
 			}
+      .navigationViewStyle(.stack)
 	}
 }
 
