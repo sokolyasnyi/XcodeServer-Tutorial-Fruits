@@ -53,8 +53,7 @@ struct ContentView: View {
 					self.viewModel.loadFruits()
 				}
 				.navigationBarTitle("Fruits")
-			}
-      .navigationViewStyle(.stack)
+			}.navigationViewStyle(.stack)
 	}
 }
 
